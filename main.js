@@ -27,7 +27,7 @@ ls.forEach((v) => {
 
 for (let i of re) {
     //DeMoon后端服务  StarNet.X所有
-      fetch(`http://154.201.72.75:3008/${i.modid}`).then(async (r) => {
+      fetch(`https://demoon.starnetx.top/${i.modid}`).then(async (r) => {
           try {
               let body = await r.json();
               if (body.client === 'true') {
