@@ -1,0 +1,21 @@
+{
+  "name": "demoon",
+  "version": "1.0.0",
+  "description": "this is a project from starnetx",
+  "main": "main.js",
+  "dependencies": {
+    "adm-zip": "^0.5.14",
+    "data-uri-to-buffer": "^4.0.1",
+    "fetch-blob": "^3.2.0",
+    "formdata-polyfill": "^4.0.10",
+    "node-domexception": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "toml": "^3.0.0",
+    "web-streams-polyfill": "^3.3.3"
+  },
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
